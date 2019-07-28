@@ -20,12 +20,12 @@ std::ostream& operator<<(std::ostream& out, RF24_conf_t &h) {
 
 static RF24_conf_t DEFAULT_RF24_CONF={ RF24_PA_MIN ,  //PALevel
                                        RF24_1MBPS ,   // DataRate;
-                                       76 ,           // Channel;
+                                       5B ,           // Channel;
                                        RF24_CRC_16 ,  // CRCLength;
                                        5,             // retriesDelay
                                        15,            // retriesCount
                                        32,            // PayloadSize
-                                       5 ,            // AddressWidth
+                                       3 ,            // AddressWidth
                                        true ,         // AutoAck
                                        250,           // TxDelay
                                        RF24_DEFAULT_POLLTIME, // PollBaseTime
